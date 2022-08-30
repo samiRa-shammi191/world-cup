@@ -7,6 +7,7 @@ body {
     font-family: 'Dancing Script', cursive;
     font-family: 'Playfair Display', serif;
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
 
 }
 
@@ -21,6 +22,7 @@ body {
     margin-left: 70px;
     margin-top: 40px;
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width {
@@ -73,3 +75,154 @@ body {
     margin-top: 50px;
 }
 
+/* Match (Blog) Description Style */
+
+.rectangle-1 {
+    width: 252px;
+    height: 252px;
+    left: 170px;
+    top: 856px;
+}
+
+.description {
+    width: 300px;
+    height: 290px;
+    margin-left: 70px;
+    top: 826px;
+    background: #161616;
+    border-radius: 15px;
+    display: flex;
+    margin-bottom: 30%;
+}
+
+#link {
+    width: 245px;
+    height: 64px;
+    margin-left: 30px;
+    margin-top: 25px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#link1 {
+    width: 245px;
+    height: 64px;
+    margin-left: 30px;
+    margin-top: 25px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#link2 {
+    width: 245px;
+    height: 64px;
+    margin-left: 30px;
+    margin-top: 25px;
+    border-radius: 5px;
+    background-color: red;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+}
+
+.blog-banner {
+    width: 12px;
+    height: 120px;
+    left: 476px;
+    top: 826px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    margin-left: 80px;
+
+}
+
+.blog {
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 24px;
+
+}
+
+.blog .blog-banner img {
+    width: 250px;
+    height: 104px;
+}
+
+.blog-info {
+    display: flex;
+    align-items: center;
+
+}
+
+.blog-btn {
+    width: 100px;
+    height: 32px;
+    left: 496px;
+    top: 1021px;
+
+}
+
+.blog-title {
+    width: 272px;
+    height: 54px;
+    left: 832px;
+    top: 1068px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+
+}
+
+/* footer style */
+
+.information {
+    width: 100%;
+    height: 370px;
+    margin-top: 60px;
+    background: #161616;
+}
+
+.goal h2 {
+    width: 9px;
+    height: 60px;
+    margin-left: 630px;
+    font-weight: 500;
+    margin-top: 80px;
+    font-size: 30px;
+    line-height: 270px;
+    text-align: center;
+    color: #FFFFFF;
+}
+hr{
+width: 1320px;
+height: 0px;
+left: 140px;
+margin-top: 130px;
+
+}
+ .info h5{
+  display: inline;
+  align-items: flex-start;
+ margin-left: 7%;
+ 
+
+
+
+
+
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+
+
+color: #B9B9B9;
+}
