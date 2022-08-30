@@ -105,7 +105,10 @@ body {
     font-weight: 600;
     font-size: 20px;
 }
-
+#link a{
+    text-decoration: none;
+    color: black;
+}
 #link1 {
     width: 245px;
     height: 64px;
@@ -213,16 +216,41 @@ margin-top: 130px;
   display: inline;
   align-items: flex-start;
  margin-left: 7%;
- 
-
-
-
-
-
 font-weight: 500;
 font-size: 16px;
 line-height: 24px;
-
-
 color: #B9B9B9;
+}
+
+/* Media Queries */
+
+
+/* Mobile Device */
+
+@media  only screen and (max-width:688px) {
+    .container, .description, .information{
+        width: 100%;
+    }
+    .rectangle-1, .blogs{
+        grid-template-columns: repeat(2,  1fr);
+    }
+     .footer{
+        flex-direction: column;
+     }
+
+}
+
+/* Tablet Devices */
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .container, .description, .information{
+        width: 100%;
+    }
+    .rectangle-1,  .blogs{
+        grid-template-columns: repeat(2,  1fr);
+        
+    }
+      .footer{
+        grid-template-columns: repeat(4,  1fr);
+    }
 }
